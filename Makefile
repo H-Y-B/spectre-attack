@@ -1,6 +1,6 @@
-CFLAGS = -std=c99
+CFLAGS = -std=c99 -static
 
-PROGRAM = spectre.out
+PROGRAM = spectre
 SOURCE  = Source.c
      
 all: $(PROGRAM)
